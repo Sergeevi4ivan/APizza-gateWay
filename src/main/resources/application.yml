@@ -5,6 +5,9 @@ eureka:
   client:
     enabled: false
 
+logstash:
+  host: localhost:5030
+
 spring:
   application:
     name: apizza-gateway
